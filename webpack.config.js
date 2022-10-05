@@ -14,11 +14,11 @@ const javascriptRules = {
 }
 
 const stylesRules = {
-  test: /\.css$/i,
-  loader: "css-loader",
-  options: {
-    import: true,
-  },
+  test: /\.css$/,
+  use: [
+    'style-loader',
+    'css-loader'
+  ]
 }
 
 module.exports = {
@@ -40,7 +40,7 @@ module.exports = {
   module: {
     rules: [
       javascriptRules,
-      // stylesRules
+      stylesRules
     ]
   }
 };

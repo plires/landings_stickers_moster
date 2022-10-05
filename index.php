@@ -13,12 +13,11 @@
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>
 
-	<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="./fontawesome/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
-	<link rel="stylesheet" type="text/css" href="./css/app.css">
-	<link href="./css/app.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="./fontawesome/css/all.min.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/> -->
+	<!-- <link rel="stylesheet" type="text/css" href="./css/app.css"> -->
 </head>
 <body>
 
@@ -30,7 +29,7 @@
 			<div class="col-md-4">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum in explicabo possimus qui autem quibusdam, atque quia voluptatibus ab exercitationem quas velit, voluptate voluptatem voluptas asperiores sequi, alias eligendi?
 			</div>
-			<div class="col-md-4">
+			<div data-aos="fade-up" class="col-md-4">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum in explicabo possimus qui autem quibusdam, atque quia voluptatibus ab exercitationem quas velit, voluptate voluptatem voluptas asperiores sequi, alias eligendi?
 			</div>
 			<div class="col-md-4">

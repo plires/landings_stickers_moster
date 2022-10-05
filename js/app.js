@@ -1,7 +1,3 @@
-import AOS from 'aos';
-
-AOS.init()
-
 function validateForm() {
 	// Validacion del Formulario
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
