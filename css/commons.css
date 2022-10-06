@@ -1,0 +1,194 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+header .logo {
+  max-width: 300px;
+}
+/* Header end */
+
+/* Footer */
+footer {
+  background: #303030;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .logo_footer {
+  margin-bottom: 15px;
+}
+
+footer .rrss {
+  margin-bottom: 30px;
+}
+
+footer .rrss a {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+footer .rrss a:hover {
+  opacity: 0.7;
+}
+
+footer .rrss a:last-child {
+  margin-right: 0;
+}
+
+footer .legales a {
+  color: #c8c8c8;
+}
+
+footer .legales a:hover {
+  color: white;
+}
+/* Footer end */
+
+.agency_bold {
+  font-family: 'AgencyFB'; 
+  font-weight: bold; 
+  font-style: normal;
+}
+
+.agency_black {
+    font-family: 'AgencyFB';
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Variables */
+:root {
+  --primary-color: rgba(0, 0, 0, 1);
+  --secondary-color: rgba(225, 37, 27, 1);
+  --light-color: rgba(244, 244, 244, 1);
+}
+/* Variables end */
+
+html, body { /* Para corregir el desbordamiento que causo la libreria AOS.js */
+  overflow-x: hidden;
+  color: white;
+}
+
+#bg {
+  position: fixed; 
+  z-index: -1;
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'AgencyFB'; 
+  font-weight: bold; 
+  font-style: normal;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.transition{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+}
+/* Comunes end */
+
+/* Buttones */
+button,
+.btn-primary {
+  color: var(--primary-color);
+  background-color: white;
+  font-weight: 300;
+  border-color: var(--primary-color);
+  padding: 5px 30px;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus,
+.btn-check:active + .btn-primary, .btn-check:checked + .btn-primary, 
+.btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle,
+.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, 
+.btn-primary.active:focus, .btn-primary:active:focus, .show > 
+.btn-primary.dropdown-toggle:focus {
+  color: var(--primary-color);
+  background-color: white;
+  border-color: var(--primary-color);
+  box-shadow: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  background: var(--primary-color);
+  color: white;
+}
+/* Buttones end */
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+  /* Header */
+  header .logo {
+    max-width: 400px;
+  }
+  /* Header end */
+
+  /* Footer */
+  footer .rrss,
+  footer .logo_footer {
+    margin-bottom: 0;
+  }
+  /* Footer end */
+
+}
+
+@media (min-width: 992px) {
+
+  /* Header */
+  header .logo {
+    max-width: 100%;
+  }
+  /* Header end */
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
+
+
+
+
+

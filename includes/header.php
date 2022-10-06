@@ -1,7 +1,3 @@
-<header class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-			HEADER
-		</div>
-	</div>
+<header>
+	<img class="img-fluid logo" src="./img/header/logo-monster.png" alt="logo monster">
 </header>

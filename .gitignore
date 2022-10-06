@@ -6,6 +6,7 @@
 /videos
 /img
 /fonts
+/dist
 .env
 **/.DS_Store into
 

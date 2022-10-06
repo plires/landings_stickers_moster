@@ -1,0 +1,128 @@
+.content_losers {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.losers h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.losers .content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.losers .cooler {
+	display: none;
+}
+
+.losers .tabla {
+	content:url('../img/perdedores/all-mobile.png');
+}
+
+.losers .toalla {
+	display: none;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+	.losers .cooler {
+		content:url('../img/perdedores/cooler-perdedores.png');
+		display: inline-block;
+	}
+
+	.losers .tabla {
+		content:url('../img/perdedores/tabla-perdedores.png');
+	}
+
+	.losers .tabla {
+		max-height: 350px;
+	}
+
+	.losers .toalla {
+		display: inline-block;
+		content:url('../img/perdedores/toalla-perdedores.png');
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.losers {
+		margin-bottom: 30px;
+	}
+
+	.losers h1 {
+		font-size: 2.5rem;
+		margin-bottom: 60px;
+		position: relative;
+	}
+
+	.losers h1:after {
+		content: url('../img/perdedores/flecha.png');
+		position: absolute;
+		width: 170px;
+		height: 142px;
+		right: -170px;
+		bottom: -15px;
+		transform: rotateY(180deg);
+	}
+
+	.losers h1:before {
+		content: url('../img/perdedores/flecha.png');
+		position: absolute;
+		width: 170px;
+		height: 142px;
+		left: -165px;
+		bottom: -15px;
+	}
+
+	.losers .content {
+		margin-bottom: 0;
+	}
+
+	.losers .tabla {
+		max-height: initial;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	.losers h1 {
+		font-size: 2.75rem;
+	}
+
+	.losers h1:after {
+		bottom: -55px;
+		transform: rotateY(180deg);
+	}
+
+	.losers h1:before {
+		bottom: -55px;
+	}
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
+
+
+
+
+
