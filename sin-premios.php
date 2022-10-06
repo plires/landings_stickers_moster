@@ -1,6 +1,5 @@
 <?php
 	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +7,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Seguí participando - monsterenergy.com</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>
@@ -50,7 +49,6 @@
 		<?php include('includes/footer.php'); ?>
 	</main>
 	
-	<!-- <script src="https://www.google.com/recaptcha/api.js?render=<?= $_ENV['RECAPTCHA_KEY_SITE'] ?>"></script> -->
 	<script src="./dist/bundle.js"></script>
 	
 </body>
