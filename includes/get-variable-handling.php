@@ -6,6 +6,12 @@ if (isset($_GET['name'])) {
     $name = '';
   }
 
+  if (isset($_GET['ci'])) {
+    $ci = $_GET['ci'];
+  } else {
+    $ci = '';
+  }
+
   if (isset($_GET['email'])) {
     $email = $_GET['email'];
   } else {
@@ -16,12 +22,6 @@ if (isset($_GET['name'])) {
     $phone = $_GET['phone'];
   } else {
     $phone = '';
-  }
-
-  if (isset($_GET['comments'])) {
-    $comments = $_GET['comments'];
-  } else {
-    $comments = '';
   }
 
   if (isset($_GET['errors'])) {
