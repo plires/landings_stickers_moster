@@ -154,7 +154,7 @@ main .content_img_mobile {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 100%;
+		margin-left: 30px;
 	}
 
 	.product .content_img .data .flecha_ganadora {
@@ -178,7 +178,7 @@ main .content_img_mobile {
 	}
 
 	.product .content_img .data .flecha_ganadora {
-		margin-left: 30px;
+		margin-right: 85px;
 	}
 
 	.product h1 {
@@ -196,10 +196,6 @@ main .content_img_mobile {
 }
 
 @media (min-width: 1400px) {
-
-	.product .content_img .data .flecha_ganadora {
-		margin-left: 80px;
-	}
 
 	.product h1 {
 		font-size: 3rem;
