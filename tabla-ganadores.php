@@ -30,7 +30,9 @@
 			<div class="row">
 
 				<div class="col-md-6 content_img">
-					<img class="img-fluid tabla" alt="tabla monster">
+					<a type="button" class="transition" href="#" data-bs-toggle="modal" data-bs-target="#ticketModal">
+						<img class="img-fluid tabla" alt="tabla monster">
+					</a>
 					<div class="data">
 						<img src="./img/commons/flecha.png" class="img-fluid flecha_ganadora" alt="flecha ganadora">
 
