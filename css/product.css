@@ -83,6 +83,12 @@ main .content_img_mobile {
 }
 /* Cooler end */
 
+/* Toalla */
+.toalla .content_img .img_product {
+	content:url('../img/toalla/toalla-mobile.png');
+}
+/* Toalla end */
+
 
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
@@ -167,6 +173,33 @@ main .content_img_mobile {
 	}
 	/* Cooler end */
 
+	/* Toalla */
+	.toalla .content_img {
+		position: relative;
+	}
+
+	.toalla .content_img .img_product {
+		content: url('../img/toalla/toalla.png');
+		margin-top: 260px;
+	}
+
+	.toalla .content_img .data {
+		display: flex;
+		flex-direction: row;
+		position: absolute;
+		top: 140px;
+		left: 0;
+	}
+
+	.toalla .content_img .data .flecha_ganadora {
+		display: flex;
+		position: absolute;
+		top: 120px;
+		right: -105px;
+		max-width: 120px;
+	}
+	/* Toalla end */
+
 }
 
 @media (min-width: 992px) {
@@ -243,8 +276,29 @@ main .content_img_mobile {
 		max-width: 105px;
 		display: inline-block;
 	}
-
 	/* Cooler end */
+
+	/* Toalla */
+	.toalla .content_img .img_product {
+		max-width: 100%;
+		margin-top: 350px;
+	}
+
+	.toalla .content_img .data {
+		align-items: flex-start;
+		margin-left: 20px;
+	}
+
+	.toalla .content_img .data .flecha_ganadora {
+		max-width: 100%;
+		left: 170px;
+		transform: rotate(15deg);
+	}
+
+	.toalla .content_img .data .frase_ganadora {
+		margin-left: 30px;
+	}
+	/* Toalla end */
 
 }
 
@@ -278,6 +332,21 @@ main .content_img_mobile {
 	}
 	/* Cooler */
 
+	/* Toalla */
+	.toalla .content_img .data {
+		top: 130px;
+	}
+
+	.toalla .content_img .data .flecha_ganadora {
+		max-width: 100%;
+		margin-left: 95px;
+	}
+
+	.toalla .content_img .data .frase_ganadora {
+		margin-left: 60px;
+	}
+	/* Toalla end */
+
 }
 
 @media (min-width: 1400px) {
@@ -306,6 +375,21 @@ main .content_img_mobile {
 		margin-bottom: 40px;
 	}
 	/* Cooler end */
+
+	/* Toalla */
+	.toalla .content_img .data {
+		top: 135px;
+		margin-left: 50px;
+	}
+
+	.toalla .content_img .img_product {
+		margin-left: 0;
+	}
+
+	.toalla .content_img .data .flecha_ganadora {
+		max-width: 100%;
+	}
+	/* Toalla end */
 
 }
 
