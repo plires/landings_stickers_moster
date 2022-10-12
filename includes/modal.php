@@ -8,14 +8,14 @@
       </div>
       <div class="modal-body">
         <p>
-          Recorda que el premio solo se entregará contra la presentación física de la tarjeta con el QR utilizado y la cédula de identificación registrada.
+          Recordá que el premio solo se entregará contra la presentación física de la tarjeta con el QR utilizado y la cédula de identificación registrada.
         </p>
         <p>
-          Sin esta presentacion, el registro en el formulario de esta pantalla, no tendra ningun efecto.
+          Sin esta presentación, el registro en el formulario de esta pantalla, no tendrá ningún efecto.
         </p>
         <p>
-          Si tenes alguna duda podes leer las bases y condiciones.
-        </p>  
+          Si tenés alguna duda podés leer las bases y condiciones.  
+        </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">ACEPTAR</button>
