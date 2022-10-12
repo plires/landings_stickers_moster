@@ -1,3 +1,12 @@
+/* Errors */
+#error,
+#msg_contacto {
+  font-family: 'Roboto';
+  font-size: 0.85rem;
+  margin-bottom: 60px;
+}
+/* Errors end */
+
 /* Modal */
 .modal-header {
   background: #94c11f;

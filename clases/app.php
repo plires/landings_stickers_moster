@@ -116,7 +116,7 @@ use PHPMailer\PHPMailer\Exception;
       $mail->Username   = $_ENV['EMAIL_CLIENT'];
       $mail->Password   = $_ENV['PASSWORD'];
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-      $mail->CharSet = $_ENV['EMAIL_CHARSET'];
+      $mail->CharSet    = $_ENV['EMAIL_CHARSET'];
       $mail->Port       = $_ENV['EMAIL_PORT'];
 
       //CONTENIDO
@@ -138,15 +138,11 @@ use PHPMailer\PHPMailer\Exception;
       $vars = array(
         '{name_client}',
         '{email_client}',
-        '{phone_client}',
-        '{phone_show_client}',
-        '{whatsapp_client}',
-        '{whatsapp_show_client}',
         '{origin}',
         '{name_user}',
         '{email_user}',
         '{phone_user}',
-        '{comments_user}',
+        '{ci_user}',
         '{date}',
         '{base}'
       );
@@ -154,15 +150,11 @@ use PHPMailer\PHPMailer\Exception;
       $values = array( 
         $_ENV['NAME_CLIENT'],
         $_ENV['EMAIL_CLIENT'],
-        $_ENV['PHONE_CLIENT'],
-        $_ENV['PHONE_SHOW_CLIENT'],
-        $_ENV['WHATSAPP_CLIENT'],
-        $_ENV['PHONE_SHOW_CLIENT'],
         $post['origin'],
         $post['name'],
         $post['email'],
         $post['phone'],
-        $post['comments'],
+        $post['ci'],
         date('d-m-Y'),
         BASE 
       );

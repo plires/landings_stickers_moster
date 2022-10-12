@@ -48,7 +48,7 @@
 	<input 
 		required="required" 
 		type="text" 
-		name="text" 
+		name="phone" 
 		value="<?= $phone ?>">
 		<span>Teléfono *</span>
 		<i></i>

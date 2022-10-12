@@ -53,9 +53,16 @@
 						</div>
 					</div>
 
+					<!-- Mensages -->
+					<?php include_once('./includes/msg.php'); ?>
+
+					<!-- Errors Form -->
+					<?php include('./includes/errors.php'); ?>
+
 					<form id="form-contacto" action="./php/validate-form.php" method="post" class="needs-validation" novalidate>
 
 						<input name="origin" type="hidden" value="Formulario de Contacto - Tabla de Surf">
+						<input name="url" type="hidden" value="tabla-ganadores.php">
 
 						<!-- Inputs Form -->
 						<?php include('includes/parts/inputs-form.php'); ?>
