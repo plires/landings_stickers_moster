@@ -4,6 +4,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 15px;
+  margin-bottom: 60px;
 }
 
 header .logo {
@@ -270,6 +271,11 @@ button,
 @media (min-width: 576px) {
 
   /* Footer */
+  footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   footer .logo_footer img {
     max-width: 35%;
   }

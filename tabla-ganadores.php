@@ -18,26 +18,38 @@
 
 	<img src="./img/commons/fondo.jpg" id="bg" alt="fondo monster">
 
-	<main class="content_tabla">
+	<!-- Modal -->
+	<?php include('includes/modal.php'); ?>
+
+	<main class="content_product">
 		<!-- Header -->
 		<?php include('includes/header.php'); ?>
 
-		<section class="container tabla_surf">
+		<section class="container product tabla_surf">
 
 			<div class="row">
 
 				<div class="col-md-6 content_img">
 					<img class="img-fluid tabla" alt="tabla monster">
+					<div class="data">
+						<img src="./img/commons/flecha.png" class="img-fluid flecha_ganadora" alt="flecha ganadora">
+
+						<a type="button" class="transition" href="#" data-bs-toggle="modal" data-bs-target="#ticketModal">
+							<img src="./img/tabla/conserva.png" class="img-fluid frase_ganadora" alt="conserva el ticket">
+						</a>
+					</div>
 				</div>
 
 				<div class="col-md-6 content_form">
 
 					<div class="frase">
-						<h1>¡FELICITACIONES! GANASTE UNA<br><span class="premio">TABLA DE SURF</span></h1>
-						<img src="./img/commons/subrayado-mobile.png" alt="subrayado">
+						<h1><span class="felicitaciones">¡FELICITACIONES!</span> <br class="first">GANASTE UNA<br><span class="premio">TABLA DE SURF</span></h1>
+						<img class="img-fluid subrayado" src="./img/commons/subrayado-mobile.png" alt="subrayado">
 						<h2>CANJEÁ TU PREMIO</h2>
+						<div class="flecha_abajo">
+							<img class="img-fluid" src="./img/commons/flecha-abajo.png" alt="flecha abajo">
+						</div>
 					</div>
-
 
 					<form id="form-contacto" action="./php/validate-form.php" method="post" class="needs-validation" novalidate>
 
@@ -118,6 +130,12 @@
 			</div>
 
 		</section>
+
+		<div class="col-md-6 content_img_mobile">
+			<a type="button" class="transition" href="#" data-bs-toggle="modal" data-bs-target="#ticketModal">
+				<img src="./img/tabla/tabla-mobile.png" class="img-fluid tabla_mobile" alt="tabla monster mobile">
+			</a>
+		</div>
 
 		<!-- Footer -->
 		<?php include('includes/footer.php'); ?>
