@@ -320,6 +320,10 @@ button,
 
 @media (min-width: 1400px) {
 
+  header {
+    margin-bottom: 0;
+  }
+
 }
 
 @media (min-width: 1600px) {
