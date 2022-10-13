@@ -1,11 +1,39 @@
-/* Errors */
+/* Errors & Mensajes */
 #error,
 #msg_contacto {
   font-family: 'Roboto';
   font-size: 0.85rem;
   margin-bottom: 60px;
 }
-/* Errors end */
+
+#msg_contacto {
+  font-size: 1rem;
+  border: solid 1px white;
+  padding: 10px;
+  text-align: center;
+}
+/* Errors & Mensajes end */
+
+/* Gracias */
+.gracias {
+  margin-bottom: 60px;
+}
+
+.gracias .btn-primary {
+  background: #94c11f;
+  border-color: #94c11f;
+  color: white;
+}
+
+.gracias .btn-primary:hover {
+  background: white!important;
+  color: #94c11f!important;
+}
+
+.gracias h1 {
+  text-transform: uppercase;
+}
+/* Gracias end */
 
 /* Modal */
 .modal-header {
@@ -73,7 +101,9 @@ header .logo {
 
 .inputBox .invalid-feedback {
   position: absolute;
-  text-align: right;
+  background: white;
+  width: auto;
+  padding: 0 5px 0 5px;
 }
 
 .inputBox input,
@@ -371,6 +401,21 @@ button,
     max-width: 100%;
   }
   /* Header end */
+
+  /* Gracias */
+  .gracias h1::before,
+  .gracias h1::after {
+    bottom: -105px!important;
+  }
+
+  .gracias h1 {
+    margin-bottom: 125px!important;
+  }
+
+  .gracias #msg_contacto {
+    font-size: 1.25rem;
+  }
+  /* Gracias end */
 
 }
 

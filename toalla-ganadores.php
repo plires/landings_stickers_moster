@@ -55,9 +55,6 @@
 						</div>
 					</div>
 
-					<!-- Mensages -->
-					<?php include_once('./includes/msg.php'); ?>
-
 					<!-- Errors Form -->
 					<?php include('./includes/errors.php'); ?>
 

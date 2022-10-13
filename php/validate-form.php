@@ -48,9 +48,8 @@
 
 		  if ($sendClient) {
 
-
-		  	$msg_contacto = 'Recordá conservar el QR ganador para canjear tu producto.';
-		    header("Location: " . BASE . $_POST['url'] . "?msg_contacto=". urlencode($msg_contacto) . "#msg_contacto" );
+		  	$name = $_POST['name'];
+		    header("Location: " . BASE ."gracias.php?name=". urlencode($name) );
 	  		exit;
 
 		  } else {
