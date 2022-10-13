@@ -1,16 +1,46 @@
 @font-face {
-    font-family: 'AgencyFB', sans-serif;
-    src: url('./../fonts/AgencyFB-Bold.woff2') format('woff2'),
-        url('./../fonts/AgencyFB-Bold.woff') format('woff');
+    font-family: 'AgencyFB';
+    src: url('../fonts/AgencyFB-Bold.eot');
+    src: url('../fonts/AgencyFB-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AgencyFB-Bold.woff2') format('woff2'),
+        url('../fonts/AgencyFB-Bold.woff') format('woff'),
+        url('../fonts/AgencyFB-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'AgencyFB', sans-serif;
-    src: url('./../fonts/AgencyFBBlack.woff2') format('woff2'),
-        url('./../fonts/AgencyFBBlack.woff') format('woff');
+    font-family: 'AgencyFB';
+    src: url('../fonts/AgencyFBBlack.eot');
+    src: url('../fonts/AgencyFBBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AgencyFBBlack.woff2') format('woff2'),
+        url('../fonts/AgencyFBBlack.woff') format('woff'),
+        url('../fonts/AgencyFBBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AgencyFB';
+    src: url('../fonts/AgencyFB-Bold_1.eot');
+    src: url('../fonts/AgencyFB-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AgencyFB-Bold_1.woff2') format('woff2'),
+        url('../fonts/AgencyFB-Bold_1.woff') format('woff'),
+        url('../fonts/AgencyFB-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AgencyFB';
+    src: url('../fonts/AgencyFBBlack_1.eot');
+    src: url('../fonts/AgencyFBBlack_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AgencyFBBlack_1.woff2') format('woff2'),
+        url('../fonts/AgencyFBBlack_1.woff') format('woff'),
+        url('../fonts/AgencyFBBlack_1.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
