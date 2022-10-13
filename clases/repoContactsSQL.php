@@ -34,7 +34,7 @@ class RepoContactsSQL extends repoContacts
       $section = $_POST['section'];
       $errors['base'] = 'Error al grabar datos intente nuevamente por favor';
 
-      header("Location: " . BASE . "index.php?errors=" . urlencode(serialize($errors)) . "#error");
+      header("Location: " . BASE . $post['url'] . "?errors=" . urlencode(serialize($errors)) . "#error");
       die();
 
     }
