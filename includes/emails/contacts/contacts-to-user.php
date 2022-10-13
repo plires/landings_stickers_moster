@@ -383,6 +383,16 @@
           </tr>
           <!-- Texto end-->
 
+          <!-- Image-->
+          <tr style="background-color: #000000;">
+              <td style="vertical-align: bottom; background-color: #000000; text-align: center; margin: auto;">
+                  
+                  <img src="{image_product}" style="margin:0; margin: auto; padding:0; border:none; display:block; height: auto;" border="0" alt="header" />
+
+              </td>
+          </tr>
+          <!-- Image end-->
+
           <!-- Boton : BEGIN -->
           <tr style="background-color: #94c11f;">
               <td style="background-color: #94c11f; text-align: center; padding: 40px;">

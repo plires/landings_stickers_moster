@@ -98,7 +98,7 @@ use PHPMailer\PHPMailer\Exception;
         
         case 'Contacto Usuario':
           $template_email = $this->selectEmailTemplate($post, 'to_user');
-          $subject = 'Gracias por tu contacto.';
+          $subject = 'Gracias por participar.';
           break;
         
       }
@@ -134,6 +134,24 @@ use PHPMailer\PHPMailer\Exception;
     function selectEmailTemplate($post, $to) 
     {
 
+      switch ($post['product']) {
+        case 'Cooler Monster':
+          $image = BASE . 'img/emails/cooler.png';
+          break;
+
+        case 'Tabla de Surf Monster':
+          $image = BASE . 'img/emails/tabla.png';
+          break;
+
+        case 'Toalla Monster':
+          $image = BASE . 'img/emails/toalla.png';
+          break;
+        
+        default:
+          $image = BASE . 'img/emails/toalla.png';
+          break;
+      }
+
       //configuro las variables a remplazar en el template
       $vars = array(
         '{name_client}',
@@ -144,6 +162,7 @@ use PHPMailer\PHPMailer\Exception;
         '{phone_user}',
         '{ci_user}',
         '{product}',
+        '{image_product}',
         '{facebook}',
         '{instagram}',
         '{youtube}',
@@ -160,6 +179,7 @@ use PHPMailer\PHPMailer\Exception;
         $post['phone'],
         $post['ci'],
         $post['product'],
+        $image,
         $_ENV['FACEBOOK'],
         $_ENV['INSTAGRAM'],
         $_ENV['YOUTUBE'],
