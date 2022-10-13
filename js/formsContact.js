@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   var url = window.location.pathname;
   var filename = url.substring(url.lastIndexOf('/')+1);
-  console.log(filename)
 
   if ( filename === 'tabla-ganadores.php' || filename === 'coolers-ganadores.php' || filename === 'toalla-ganadores.php' ) { 
 
@@ -48,9 +47,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
               inputAction.name = "action";
               inputAction.value = "validarFormulario";
               form.appendChild(inputAction);
-              spinner.style.display = 'none'
 
             form.submit()
+            spinner.style.display = 'none'
 
           })
 
