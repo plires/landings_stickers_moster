@@ -3,54 +3,63 @@ const spinner = document.getElementById('spinner');
 
 document.addEventListener("DOMContentLoaded", function(event) {
 
-  btnSend.addEventListener('click', function(){
+  var url = window.location.pathname;
+  var filename = url.substring(url.lastIndexOf('/')+1);
+  console.log(filename)
 
-    var errorsInFieldsFront = false
+  if ( filename === 'tabla-ganadores.php' || filename === 'coolers-ganadores.php' || filename === 'toalla-ganadores.php' ) { 
 
-    // Validacion del Formulario
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var form = document.getElementById('form-contacto');
+    btnSend.addEventListener('click', function(){
 
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-      errorsInFieldsFront = true
-    }
+      var errorsInFieldsFront = false
 
-    form.classList.add('was-validated');
+      // Validacion del Formulario
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var form = document.getElementById('form-contacto');
 
-    if (!errorsInFieldsFront) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+        errorsInFieldsFront = true
+      }
 
-      // Habilitar spniner en button
-      spinner.style.display = 'flex'
+      form.classList.add('was-validated');
 
-      grecaptcha.ready(function() {
+      if (!errorsInFieldsFront) {
 
-        grecaptcha.execute(process.env.RECAPTCHA_KEY_SITE, {
+        // Habilitar spniner en button
+        spinner.style.display = 'flex'
 
-          action: 'validarFormulario'
-          }).then(function(token) {
+        grecaptcha.ready(function() {
 
-            var inputToken = document.createElement("input");
-            inputToken.type = "hidden";
-            inputToken.name = "token";
-            inputToken.value = token;
-            form.appendChild(inputToken);
+          grecaptcha.execute(process.env.RECAPTCHA_KEY_SITE, {
 
-            var inputAction = document.createElement("input");
-            inputAction.type = "hidden";
-            inputAction.name = "action";
-            inputAction.value = "validarFormulario";
-            form.appendChild(inputAction);
+            action: 'validarFormulario'
+            }).then(function(token) {
 
-          form.submit()
+              var inputToken = document.createElement("input");
+              inputToken.type = "hidden";
+              inputToken.name = "token";
+              inputToken.value = token;
+              form.appendChild(inputToken);
+
+              var inputAction = document.createElement("input");
+              inputAction.type = "hidden";
+              inputAction.name = "action";
+              inputAction.value = "validarFormulario";
+              form.appendChild(inputAction);
+              spinner.style.display = 'none'
+
+            form.submit()
+
+          })
 
         })
 
-      })
+      }
 
-    }
+    })
 
-  })
-   
+  }
+
 })
