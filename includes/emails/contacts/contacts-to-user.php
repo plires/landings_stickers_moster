@@ -295,7 +295,7 @@
 
         <!-- Texto de encabezado oculto visualmente : BEGIN -->
         <div class="fallback-font" style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: 'Montserrat', sans-serif;">
-            Gracias por tu contacto
+            Gracias por participar
         </div>
         <!-- Texto de encabezado oculto visualmente : END -->
 
@@ -313,18 +313,18 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://vqz.net/img/email/header-email.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://librecomunicacion.net/clientes/monster/img/emails/header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
           <!-- Header end-->
 
           <!-- Texto-->
-          <tr style="background-color: #000000;">
+          <tr style="background-color: #94c11f;">
               <td style="padding: 10px; vertical-align: middle;">
                   
-                  <h1 class="fallback-font" style="margin: 0px!important; font-family: 'Montserrat', sans-serif; font-size: 28px; color: #FFFFFF; text-align: center; font-weight: 700;">
-                      <strong>Gracias por contactarte</strong>
+                  <h1 class="fallback-font" style="margin: 0px!important; font-family: 'Montserrat', sans-serif; font-size: 28px; color: #FFFFFF; text-align: center; text-transform: uppercase; font-weight: 700;">
+                      <strong>FELICITACIONES {name_user}</strong>
                   </h1>
 
               </td>
@@ -332,40 +332,50 @@
           <!-- Texto end-->
 
           <!-- Texto-->
-          <tr style="background-color: #FFFFFF;">
+          <tr style="background-color: #000000;">
               <td style="padding: 40px;">
 
-                  <h2 class="fallback-font" style="margin: 0 0 5px 0; font-family: 'Montserrat', sans-serif; font-size: 19px; line-height: 29px; color: #575756; text-align: left; font-weight: 700;">
+                  <h2 class="fallback-font" style="margin: 0 0 5px 0; font-family: 'Montserrat', sans-serif; font-size: 19px; line-height: 29px; color: #FFFFFF; text-align: left; font-weight: 700;">
                       <strong>Hola {name_user}, Como estas?</strong>
                   </h2>
 
-                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; color: #575756; text-align: left; font-weight: 400;">
-                    Desde {name_client} queremos agradecer tu mensaje. En poco tiempo estar&aacute; respondiendo a tu consulta un asesor personal.
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; color: #FFFFFF; text-align: left; font-weight: 400;">
+                    Felicitaciones, ganaste un/a <span style="text-transform: uppercase;">{product}</span>
                   </p>
                   <br>
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; color: #FFFFFF; text-align: left; font-weight: 400;">
+                    Podés retirar tu premio por Agencia Visión – Veracierto 2741 desde las 8:30 hasta las 12:30 y desde las 13 hasta las 17:30.
+                  </p>
                   <br>
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; color: #FFFFFF; text-align: left; font-weight: 400;">
+                    Recordá que para poder acceder a este premio es obligatorio presentar la tarjeta con el código QR que utilizaste y tu cédula de identidad.
+                  </p>
 
-                  <h3 class="fallback-font" style="margin: 0 0 10px 0; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: center; font-weight: 700;">
-                      <strong>DATOS DE TU MENSAJE:</strong>
+                  <h3 class="fallback-font" style="margin: 0 0 10px 0; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: center; font-weight: 700;">
+                      <strong>DATOS DE TU PREMIO:</strong>
                   </h3>
 
-                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: left; font-weight: 400;">
                       <strong>Nombre:</strong> {name_user}
                   </p>
 
-                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: left; font-weight: 400;">
                       <strong>Email:</strong> {email_user}
                   </p>
 
-                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: left; font-weight: 400;">
                       <strong>Tel&eacute;fono:</strong> {phone_user}
                   </p>
 
-                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
-                      <strong>Comentarios:</strong> {comments_user}
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: left; font-weight: 400;">
+                      <strong>C.I.:</strong> {ci_user}
                   </p>
 
-                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: left; font-weight: 400;">
+                      <strong>Producto a canjear:</strong> {product}
+                  </p>
+
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: left; font-weight: 400;">
                       <strong>Fecha:</strong> {date}
                   </p>
 
@@ -374,17 +384,17 @@
           <!-- Texto end-->
 
           <!-- Boton : BEGIN -->
-          <tr style="background-color: #000000;">
-              <td style="background-color: #000000; text-align: center; padding: 40px;">
+          <tr style="background-color: #94c11f;">
+              <td style="background-color: #94c11f; text-align: center; padding: 40px;">
 
                 <p class="fallback-font" style="margin: 0 0 10px; margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: center; font-weight: 400;">
-                  <strong>¿Necesitas realizar otra consulta?</strong>
+                  <strong>Seguí navegando por nuestra web</strong>
                 </p>
                   <!-- Button : BEGIN -->
                   <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
                       <tr>
                           <td class="button-td button-td-primary" style="border-radius: 4px; background: #FFFFFF;">
-                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="{base}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #000000; display: block; border-radius: 4px;">VER MÁS
+                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="https://www.monsterenergy.com/" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #000000; display: block; border-radius: 4px;">IR AL SITIO
                               </a>
                           </td>
                       </tr>
@@ -398,16 +408,16 @@
           <tr align="center" style="background-color: #FFFFFF;">
               <td align="center"  style="background-color: #FFFFFF;padding: 10px;">
                 
-                <a target="_blank" rel="noopener noreferrer" href="{whatsapp_client}">
-                  <img src="https://vqz.net/img/email/whatsapp-14.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
+                <a target="_blank" rel="noopener noreferrer" href="{facebook}">
+                  <img src="https://librecomunicacion.net/clientes/monster/img/emails/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
                 </a>
 
-                <a target="_blank" rel="noopener noreferrer" href="tel:{phone_client}">
-                  <img src="https://vqz.net/img/email/phone-14.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="phone" />
+                <a target="_blank" rel="noopener noreferrer" href="{instagram}">
+                  <img src="https://librecomunicacion.net/clientes/monster/img/emails/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
                 </a>
 
-                <a target="_blank" rel="noopener noreferrer" href="mailto:{email_client}">
-                  <img src="https://vqz.net/img/email/email-14.png" style="margin:0; margin-right: 0; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="email" />
+                <a target="_blank" rel="noopener noreferrer" href="{youtube}">
+                  <img src="https://librecomunicacion.net/clientes/monster/img/emails/youtube.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
                 </a>
 
               </td>

@@ -43,10 +43,9 @@
 		  //Enviamos los mails al cliente y usuario
 		  $app = new App;
 
-		  $sendClient = $app->sendEmail('Cliente', 'Contacto Cliente', $_POST);
 		  $sendUser = $app->sendEmail('Usuario', 'Contacto Usuario', $_POST);
 
-		  if ($sendClient) {
+		  if ($sendUser) {
 
 		  	$name = $_POST['name'];
 		    header("Location: " . BASE ."gracias.php?name=". urlencode($name) );

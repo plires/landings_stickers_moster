@@ -60,8 +60,9 @@
 
 					<form id="form-contacto" action="./php/validate-form.php" method="post" class="needs-validation" novalidate>
 
-						<input name="origin" type="hidden" value="Formulario de Contacto - Toalla">
+						<input name="origin" type="hidden" value="Formulario de Canje - Toalla">
 						<input name="url" type="hidden" value="toalla-ganadores.php">
+						<input name="product" type="hidden" value="Toalla Monster">
 
 						<!-- Inputs Form -->
 						<?php include('includes/parts/inputs-form.php'); ?>

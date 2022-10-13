@@ -59,8 +59,9 @@
 
 					<form id="form-contacto" action="./php/validate-form.php" method="post" class="needs-validation" novalidate>
 
-						<input name="origin" type="hidden" value="Formulario de Contacto - Coolers">
+						<input name="origin" type="hidden" value="Formulario de Canje - Coolers">
 						<input name="url" type="hidden" value="coolers-ganadores.php">
+						<input name="product" type="hidden" value="Cooler Monster">
 
 						<!-- Inputs Form -->
 						<?php include('includes/parts/inputs-form.php'); ?>

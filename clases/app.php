@@ -143,6 +143,10 @@ use PHPMailer\PHPMailer\Exception;
         '{email_user}',
         '{phone_user}',
         '{ci_user}',
+        '{product}',
+        '{facebook}',
+        '{instagram}',
+        '{youtube}',
         '{date}',
         '{base}'
       );
@@ -155,6 +159,10 @@ use PHPMailer\PHPMailer\Exception;
         $post['email'],
         $post['phone'],
         $post['ci'],
+        $post['product'],
+        $_ENV['FACEBOOK'],
+        $_ENV['INSTAGRAM'],
+        $_ENV['YOUTUBE'],
         date('d-m-Y'),
         BASE 
       );
