@@ -113,11 +113,19 @@ use PHPMailer\PHPMailer\Exception;
       //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
       $mail->Host       = $_ENV['SMTP'];
       $mail->SMTPAuth   = true;
-      $mail->Username   = $_ENV['EMAIL_CLIENT'];
+      $mail->Username   = $_ENV['USERNAME'];
       $mail->Password   = $_ENV['PASSWORD'];
-      $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+      $mail->SMTPSecure = $_ENV['SMTP_SECURE'];
       $mail->CharSet    = $_ENV['EMAIL_CHARSET'];
       $mail->Port       = $_ENV['EMAIL_PORT'];
+
+      $mail->SMTPOptions = array(
+        'ssl' => array(
+          'verify_peer' => false,
+          'verify_peer_name' => false,
+          'allow_self_signed' => true
+        )
+      );
 
       //CONTENIDO
       $mail->isHTML(true);                                  
