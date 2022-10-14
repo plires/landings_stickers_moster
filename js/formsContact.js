@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
               form.appendChild(inputAction);
 
             form.submit()
-            spinner.style.display = 'none'
 
           })
 
